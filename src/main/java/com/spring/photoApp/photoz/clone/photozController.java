@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class photozController {
 	
-	private List<Photo> db = List.of(new Photo("1","hello.jpg"));// this is contoller file.
+	private List<Photo> db = List.of(new Photo("1","hello.jpg"));
 	
-	@GetMapping("/")// this is get mapping mehtods
+	@GetMapping("/")
 	public String hello() {
 		return "hello java";
 	}

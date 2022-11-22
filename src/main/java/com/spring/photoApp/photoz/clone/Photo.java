@@ -7,7 +7,7 @@ public class Photo {
 		return id;
 	}
 	
-// this is bean file.	
+	
 	public Photo() {
 		super();
 		// TODO Auto-generated constructor stub
